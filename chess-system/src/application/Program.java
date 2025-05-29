@@ -9,13 +9,6 @@ public class Program {
 
 		Board board = new Board(8, 8);
 		
-		
-		System.out.println("TESTE");
-		System.out.println("TESTE");
-		System.out.println("TESTE");
-		System.out.println("TESTE");
-		System.out.println("TESTE");
-		
 	}
 	
 }
