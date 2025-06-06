@@ -9,7 +9,7 @@ public class Program {
 	public static void main(String[] args) {
 
 		ChessMatch chessMatch = new ChessMatch();
-		System.out.println(chessMatch.getPiece(1, 1));
+		System.out.println(chessMatch.getPiece(0, 0));
 		UI.printBoard(chessMatch.getPieces());
 		
 	}
