@@ -34,10 +34,9 @@ public class ChessMatch {
 		Position source = sourcePosition.toPosition();
 		Position target = targetPosition.toPosition();
 		validateSourcePosition(source);
-		validateSourcePosition(source);
+		validateSourcePosition(target);
 		Piece capturedPiece = makeMove(source, target);
 		return (ChessPiece) capturedPiece; 
-		
 	}
 	
 	private Piece makeMove(Position source, Position target) {
